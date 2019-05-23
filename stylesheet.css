@@ -2,11 +2,23 @@ body {
     min-height: 100vh;
     position: relative;
     margin: 0;
+    background-image: url(images/background.png)
+}
+
+.navbar {
+    background-color: darkgrey;
+    color: white;
+    border: solid 1px lightgrey;
 }
 
 .navbar-brand {
     background-color: #4aaaa5;
     padding: 10px;
+    color: white;
+}
+
+h1 {
+    color: #4aaaa5;
 }
 
 .container {
@@ -14,6 +26,13 @@ body {
     padding: 10px;
     border: solid 1px;
     border-color: lightgrey;
+    background-color: white;
+}
+
+.btn,
+.btn-primary {
+    background-color: #4aaaa5;
+    color: white;
 }
 
 .footbottom {
