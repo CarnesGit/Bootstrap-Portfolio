@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+.container {
+    margin-top: 40px;
+    padding: 10px;
+    border: solid 1px;
+    border-color: lightgrey;
+}
+
+.footbottom {
+    background: darkgrey;
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#foottop {
+    height: 20px;
+    background-color: #4aaaa5;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
