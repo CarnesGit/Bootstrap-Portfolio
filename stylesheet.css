@@ -1,19 +1,20 @@
 body {
-    min-height: 100vh;
-    position: relative;
-    margin: 0;
     background-image: url(images/background.png)
 }
 
+#nava {
+    margin-top: 15px;
+}
+
 .navbar {
-    background-color: darkgrey;
-    color: white;
+    background-color: lightgrey;
     border: solid 1px lightgrey;
 }
 
 .navbar-brand {
     background-color: #4aaaa5;
     padding: 10px;
+    margin-left: 10px;
     color: white;
 }
 
@@ -21,12 +22,33 @@ h1 {
     color: #4aaaa5;
 }
 
+.aboutP {
+    text-indent: 2.0em;
+}
+
+#contacth2 {
+    color: #4aaaa5;
+}
+
 .container {
-    margin-top: 40px;
+    margin-top: 10px;
     padding: 10px;
     border: solid 1px;
     border-color: lightgrey;
     background-color: white;
+}
+
+#portfolioContainer {
+    margin: 10px;
+}
+
+.title {
+    color: #4aaaa5;
+}
+
+.card {
+    margin-left: 130px;
+    margin-bottom: 20px;
 }
 
 .btn,
@@ -49,7 +71,15 @@ h1 {
 }
 
 .footer {
-    position: absolute;
+    position: static;
     bottom: 0;
     width: 100%;
+    margin-top: 83px;
+}
+
+.footerContact {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    margin-top: 99px;
 }
