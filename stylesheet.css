@@ -7,35 +7,72 @@ body {
 }
 
 .navbar {
-    background-color: lightgrey;
-    border: solid 1px lightgrey;
-}
-
-.navbar-brand {
-    background-color: #4aaaa5;
-    padding: 10px;
-    margin-left: 10px;
+    background-image: url(images/background2.png);
+    margin-bottom: 40px;
+    margin-top: 0;
     color: white;
 }
 
+.navbar-brand {
+    background-color: #FF610D;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 800;
+}
+
 h1 {
-    color: #4aaaa5;
+    color: #FF610D;
+    font-weight: 800;
+    -webkit-text-stroke: 1px black;
+}
+
+a {
+    color: #FF610D;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+hr {
+    border-color: white;
 }
 
 .aboutP {
     text-indent: 2.0em;
+    color: white;
+}
+
+.contact {
+    color: white;
 }
 
 #contacth2 {
-    color: #4aaaa5;
+    color: #FF610D;
+    -webkit-text-stroke: 1px black;
+    font-size: 40px;
+}
+
+#porth2 {
+    color: #FF610D;
+    -webkit-text-stroke: 1px black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contactPad {
+    padding-left: 70px;
+}
+
+.contactButton {
+    padding-left: 55px;
+    padding-top: 15px;
+    color: white;
 }
 
 .container {
     margin-top: 10px;
     padding: 10px;
-    border: solid 1px;
-    border-color: lightgrey;
-    background-color: white;
+    background-image: url(images/background2.png)
 }
 
 #portfolioContainer {
@@ -43,7 +80,7 @@ h1 {
 }
 
 .title {
-    color: #4aaaa5;
+    color: #FF610D;
 }
 
 .card {
@@ -53,12 +90,12 @@ h1 {
 
 .btn,
 .btn-primary {
-    background-color: #4aaaa5;
+    background-color: #FF610D;
     color: white;
 }
 
 .footbottom {
-    background: darkgrey;
+    background-image: url(images/background2.png);
     color: white;
     height: 60px;
     text-align: center;
@@ -67,19 +104,19 @@ h1 {
 
 #foottop {
     height: 20px;
-    background-color: #4aaaa5;
+    background-color: #FF610D;
 }
 
 .footer {
     position: static;
     bottom: 0;
     width: 100%;
-    margin-top: 83px;
+    margin-top: 46px;
 }
 
 .footerContact {
     position: static;
     bottom: 0;
     width: 100%;
-    margin-top: 99px;
+    margin-top: 39px;
 }
